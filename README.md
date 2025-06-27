@@ -56,9 +56,9 @@ ping (ICMP): ping <IP>
 
 ssh/ftp:
 
-Linux: ssh username@<ip> -p <PORT> or ssh username@<ip> / ftp <ip>
+Linux: ssh username@<ip> -p <PORT> (or) ssh username@<ip> / ftp <ip>
 
-Windows: ssh username@<ip> -p <PORT>  or ssh username@<ip> / ftp <ip> (PowerShell)
+Windows: ssh username@<ip> -p <PORT>  (or) ssh username@<ip> / ftp <ip> (PowerShell)
 
 ✅ If the firewall allows, the connection should succeed.
 ❌ If the firewall blocks, the connection should fail.
