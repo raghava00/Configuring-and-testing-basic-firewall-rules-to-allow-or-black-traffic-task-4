@@ -25,19 +25,20 @@ Click Finish.
 You can use UFW (Uncomplicated Firewall) or iptables.
 
 1️⃣ Using UFW
-Install UFW (if not already installed):
+Install UFW :
 
 sudo apt update
 sudo apt install ufw
-Enable UFW:
 
+Enable UFW:
 sudo ufw enable
 
 Allow traffic on a specific port (e.g., SSH - port 22):
 sudo ufw allow 22/tcp
-Block traffic on a specific port (e.g., HTTP - port 80):
 
+Block traffic on a specific port (e.g., HTTP - port 80):
 sudo ufw deny 80/tcp
+
 View active rules:
 sudo ufw status numbered
 
