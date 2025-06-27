@@ -42,6 +42,8 @@ sudo ufw deny 80/tcp
 View active rules:
 sudo ufw status numbered
 
+
+
 2️⃣ Using iptables (alternative)
 Allow SSH (port 22):
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
