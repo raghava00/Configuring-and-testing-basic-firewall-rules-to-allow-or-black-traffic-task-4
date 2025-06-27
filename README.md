@@ -24,7 +24,7 @@ Click Finish.
 🐧 Linux Firewall Configuration
 You can use UFW (Uncomplicated Firewall) or iptables.
 
-1️⃣ Using UFW
+ Using UFW
 Install UFW :
 
 sudo apt update
@@ -44,12 +44,6 @@ sudo ufw status numbered
 
 
 
-2️⃣ Using iptables (alternative)
-Allow SSH (port 22):
-sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-
-Block HTTP (port 80):
-sudo iptables -A INPUT -p tcp --dport 80 -j DROP
 
 🔎 Testing the Firewall Rules
 Use tools like:
